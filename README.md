@@ -89,16 +89,16 @@ Community tutorials: [中文Windows教程 (Chinese Windows tutorial)](https://ww
 ### Linux/Unix
 
 0. Install [CUDA] (https://developer.nvidia.com/cuda-11.3.0-download-archive) 
-# Add cuda libs to path (or get faceslap errors)
-# open .bashrc file on ~/.bashrc with nano and add this line to end of file save with ctrl-o and enter and ctrl+x to exit
+ Add cuda libs to path (or get faceslap errors)
+ open .bashrc file on ~/.bashrc with nano and add this line to end of file save with ctrl-o and enter and ctrl+x to exit
 
 export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH
 
 1. Install [Anaconda](https://www.anaconda.com/), Python and `git`.
-# Add conda to path (for ease of use)
-# open .bashrc file on ~/.bashrc with nano and add this line to end of file with ctrl-o and enter and ctrl+x to exit
+ Add conda to path (for ease of use)
+ open .bashrc file on ~/.bashrc with nano and add this line to end of file with ctrl-o and enter and ctrl+x to exit
 
-export PATH=~/anaconda3/bin:$PATH
+ export PATH=~/anaconda3/bin:$PATH
 
 2. Creating the env and install the requirements.
   ```bash
