@@ -15,7 +15,7 @@ joblib==1.1.0
 scikit-image==0.19.3
 basicsr==1.4.2
 facexlib==0.3.0
-install gradio==3.39.0 # I find the correct version from project release date and matched lol
+gradio==3.39.0 # I find the correct version from project release date and matched lol
 gfpgan
 av
 safetensors
