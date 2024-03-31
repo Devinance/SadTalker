@@ -19,3 +19,8 @@ gradio
 gfpgan
 av
 safetensors
+
+nvidia-pyindex==1.0.9
+nvidia-cudnn-cu113 # if give error delete nvidia-pyindex==1.0.9
+
+# tts   //not working with python 3.8 build fails
